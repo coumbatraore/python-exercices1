@@ -13,7 +13,7 @@ for vente in ventes:
 print( ca_par_produit)
 
 
-total = sum(ca_par_produit.value())
+total = sum(ca_par_produit.values())
 print(f"Total : {total:.2f} euros")
 
 meilleur_produit = ""
@@ -23,3 +23,4 @@ for nom, ca in ca_par_produit.items():
         meilleur_ca = ca
         meilleur_produit = nom 
 print(f"Meilleur produit : {meilleur_produit}")
+
